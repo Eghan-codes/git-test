@@ -2,6 +2,7 @@ let myLeads = []
 let inputEl = document.getElementById("input-el")
 let ulEl = document.getElementById("ul-el")
 let inputBtn = document.getElementById("input-btn")
+let number = 3
 
 inputBtn.addEventListener("click", function () {
     myLeads.push(inputEl.value)
